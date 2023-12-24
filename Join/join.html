@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> -->
+    <link rel="stylesheet" href="join.css"/>
+    <title>Account Sign in</title>
+</head>
+<body>
+    <header>
+        <a href=".."><img  class="header-img" src="http://logo-logos.com/2016/10/Starbucks_logo.png" alt="Starbucks logo, logotype"></a>
+    </header>
+
+    <section class="main">
+        <h1>Create an account</h1>
+
+        <section class="main">
+            <div class="card">
+                <h4 class="title">STARBUCKS® REWARDS</h4>
+                <h4 class="text">Join Starbucks® Rewards to earn free food and drinks,
+                     get free refills, pay and order with your phone, and <a href="https://www.starbucks.com/rewards">more</a>.</h4>
+            </div>
+        </section>
+
+
+        <div class="signin-box">
+            <p><span class="star">*</span> indicates required field</p>
+            <form>
+                <div class="info">
+                    <h3>Personal Information</h2>
+                    <div class="input-container">
+                        <input 
+                        type="text"
+                        id="firstName"
+                        class="text-input"
+                        placeholder="* First Name"
+                        required
+                        />
+                        <label for="firstName" class="label"><span class="star">*</span> Fisrt Name</label>
+                        </div>
+
+                    <div class="input-container">
+                        <input 
+                        type="text"
+                        id="lastName"
+                        class="text-input"
+                        placeholder="* Last Name"
+                        required
+                        />
+                        <label for="lastName" class="label"><span class="star">*</span> Last Name</label>
+                        </div>
+                </div>
+
+                <div class="info">
+                    <h3>Account Security</h2>
+                    <div class="input-container">
+                        <input 
+                        type="email"
+                        id="email"
+                        class="text-input"
+                        placeholder="* Email"
+                        required
+                        />
+                        <label for="email" class="label"><span class="star">*</span> Email</label>
+                        <p class="input-explain-text">This will be your username</p>
+                    </div>
+
+                    <div class="input-container">
+                        <input 
+                        type="password"
+                        id="password"
+                        class="text-input"
+                        placeholder="* Password"
+                        required
+                        />
+                        <label for="password" class="label"><span class="star">*</span> Password</label>
+                        <p class="input-explain-text">Create a password 8 to 25 characters long that includes at least 1 uppercase and 1 lowercase letter, 1 number and 1 special character like an exclamation point or asterisk.</p>
+                    </div>
+                </div>
+                
+                
+            </form>
+            
+            <div class="terms-title">
+                <h4>TERMS OF USE</h4>
+
+                <div class="terms">
+                    <label for="myCheckBox" class="checkbox">
+                        <input type="checkbox" class="checkbox-input" id="myCheckBox"/>
+                        <div class="checkbox-box"></div>
+                    </label>
+                    <p>
+                        <span class="star">*</span> I agree to the 
+                        <a href="https://www.starbucks.com/rewards/terms/" target="_blank">Starbucks® Rewards Terms <i class="fa-solid fa-up-right-from-square"></i></a><br />
+                        and the <a href="https://www.starbucks.com/terms/manage-gift-cards/" target="_blank">Starbucks Card Terms <i class="fa-solid fa-up-right-from-square"></i></a> 
+                        and have <br /> read the 
+                        <a href="https://www.starbucks.com/terms/privacy-policy/#notice-of-financial-incentive" target="_blank">Starbucks Privacy Statement <i class="fa-solid fa-up-right-from-square"></i></a>          
+                    </p>
+                </div>
+            </div>
+            
+            <a  class="signin-btn"><button>Create account</button></a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="btn-footer">
+            <a class="join-btn"><button>Find a store</button></a>
+            <p>© 2022 Starbucks</p>
+        </div>
+
+        <ul>
+            <li>Web Accessibility</li>
+            <li>Privacy Policy</li>
+            <li>Terms of Use</li>
+            <li>Cookie Preferences</li>
+        </ul>
+    </footer>
+    
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/0ed3f06969.js" crossorigin="anonymous"></script>
+</body>
+</html>
